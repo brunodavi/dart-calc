@@ -9,7 +9,7 @@ void main(List<String> arguments) {
   String operator = arguments[1];
   double y = double.parse(arguments.last);
 
-  Calc calc = Calc(x: x, y: y);
+  Calc calc = Calc(x, y);
   double value;
 
   switch (operator) {

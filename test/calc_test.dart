@@ -2,19 +2,21 @@ import 'package:dart_calc/calc.dart';
 import 'package:test/test.dart';
 
 void main() {
+  var calc = Calc(3, 2);
+
   test('sum', () {
-    expect(Calc(x: 3, y: 2).sum(), 5);
+    expect(calc.sum(), 5);
   });
 
   test('sub', () {
-    expect(Calc(x: 3, y: 2).sub(), 1);
+    expect(calc.sub(), 1);
   });
 
   test('div', () {
-    expect(Calc(x: 3, y: 2).div(), 1.5);
+    expect(calc.div(), 1.5);
   });
 
   test('mul', () {
-    expect(Calc(x: 3, y: 2).mul(), 6);
+    expect(calc.mul(), 6);
   });
 }

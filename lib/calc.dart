@@ -1,5 +1,5 @@
 class Calc {
-  Calc({required this.x, required this.y});
+  Calc(this.x, this.y);
 
   double x;
   double y;
