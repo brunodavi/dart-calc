@@ -3,7 +3,7 @@ import 'package:dart_calc/calc.dart';
 void main(List<String> arguments) {
   final int argsSize = arguments.length;
 
-  if (argsSize == 4) error();
+  if (argsSize != 3) error();
 
   double x = double.parse(arguments.first);
   String operator = arguments[1];
@@ -52,7 +52,7 @@ void error() {
   String operator = operators.first;
   int y = numbers.last.toInt();
 
-  throw ArgumentError('Try: \$ dart run bin/hello_world.dart $x $operator $y');
+  throw ArgumentError('Try: \$ dart-calc $x $operator $y');
 }
 
 dynamic doubleInt(double number) {
