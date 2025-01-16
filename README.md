@@ -22,7 +22,7 @@ source ~/.bashrc
 ```
 
 #### Permission denied
-```
+```bash
 chmod +x ~/.pub-cache/bin/dart-calc
 ```
 
