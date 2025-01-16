@@ -4,7 +4,7 @@ version: 1.0.0
 repository: https://github.com/brunodavi/dart-calc
 
 executables:
-  dart-calc: bin/dart_calc.dart
+  dart-calc: dart_calc
 
 environment:
   sdk: ^3.6.1
