@@ -8,10 +8,22 @@ dart pub global activate --source git https://github.com/brunodavi/dart-calc.git
 ```
 
 ### Fix Errors
+
+#### Command dart-calc not found
 Add this line in `~/.bashrc`
 
 ```bash
 export PATH="$PATH:$HOME/.pub-cache/bin"
+```
+
+After run
+```bash
+source ~/.bashrc
+```
+
+#### Permission denied
+```
+chmod +x ~/.pub-cache/bin/dart-calc
 ```
 
 ### Uninstall
