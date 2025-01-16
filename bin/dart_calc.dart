@@ -1,4 +1,4 @@
-import 'package:hello_world/hello_world.dart';
+import 'package:dart_calc/calc.dart';
 
 void main(List<String> arguments) {
   final int argsSize = arguments.length;

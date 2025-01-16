@@ -1,7 +1,10 @@
-name: hello_world
-description: A sample command-line application.
+name: dart_calc
+description: A sample command-line application to simples calcs.
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/brunodavi/dart-calc
+
+executables:
+  dart-calc: bin/dart_calc.dart
 
 environment:
   sdk: ^3.6.1
